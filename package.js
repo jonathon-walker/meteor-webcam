@@ -6,6 +6,8 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
+    api.versionsFrom("METEOR@0.9.0")
+
     api.use('tracker', 'client');
     api.add_files(['motiondetector.js', 'imagecomparer.js', 'stream.js', 'webcam.js'], 'client');
     api.export('Webcam', 'client');
