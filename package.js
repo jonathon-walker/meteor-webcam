@@ -1,5 +1,5 @@
 Package.describe({
-    name: 'meteor-webcam',
+    name: 'jwalker93:meteor-webcam',
     summary: 'Meteor webcam access and motion detection package.',
     version: '0.1.0',
     git: 'https://github.com/jonathon-walker/meteor-webcam.git'
